@@ -1,0 +1,8 @@
+id,task_description,input_type,complexity_hint
+1,整理一个 AI Agent 项目提交材料并生成 README 和证明清单,document,medium
+2,扫描代码仓库并生成重构计划和测试建议,code,high
+3,分析系统日志中的异常事件并输出风险原因,csv,high
+4,清洗 CSV 数据并生成统计指标和总结报告,csv,medium
+5,设计一个自动化运行流程并记录执行日志,text,medium
+6,把一个复杂任务拆成多 Agent 协作步骤,text,low
+

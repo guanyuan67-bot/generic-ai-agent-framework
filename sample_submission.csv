@@ -1,0 +1,8 @@
+id,task_type,risk_level,agent_chain,recommended_output,token_plan,reason
+1,submission_material,medium,Understanding->Planning->Writing->Review,README + form answer + evidence checklist,scan first; summarize stages; read on demand; cache intermediate decisions,matched keywords: 提交|材料|README|证明
+2,code_analysis,high,Scanner->Planner->Worker->Verifier->Reviewer,analysis report + patch plan + verification log,scan first; summarize stages; read on demand; add verification checkpoint; keep rollback notes,matched keywords: 代码|仓库|重构|测试
+3,security_analysis,high,Triage->Feature Extraction->Reasoning->Report,risk report + anomaly table + reproduction steps,scan first; summarize stages; read on demand; add verification checkpoint; keep rollback notes,matched keywords: 日志|异常|风险
+4,data_processing,medium,Loader->Cleaner->Analyzer->Reporter,cleaned data + metrics table + summary report,scan first; summarize stages; read on demand; cache intermediate decisions,matched keywords: CSV|数据|统计|指标
+5,automation_ops,medium,Scheduler->Executor->Monitor->Notifier,automation script + run log + status report,scan first; summarize stages; read on demand; cache intermediate decisions,matched keywords: 自动化|运行|流程|日志
+6,general_agent_task,low,Understanding->Planning->Execution->Verification->Report,task plan + result report + verification notes,scan first; summarize stages; read on demand; use concise structured output,default general Agent workflow
+
